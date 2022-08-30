@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Napak Tilas</title>
+  </head>
+  <body>
+    <h1>Napak Tilas</h1>
+
+    <form action="#">
+      <fieldset>
+        <legend>Form</legend>
+        <label style="display: block; margin-bottom: 10px">
+          Nama :
+          <input type="text" placeholder="Nama Lengkap.." required/>
+        </label>
+
+        <label style="display: block; margin-bottom: 10px">
+          Username :
+          <input type="text" placeholder="Username.." required/>
+        </label>
+
+        <label style="display: block; margin-bottom: 10px">
+          Email :
+          <input type="email" placeholder="Your Email.." required/>
+        </label>
+
+        <label style="display: block; margin-bottom: 10px">
+          Password :
+          <input type="password" placeholder="Password.." required/>
+        </label>
+
+        <label style="display: block; margin-bottom: 10px">
+          Alamat Web :
+          <input type="url" placeholder="Masukkan URL Web.." />
+        </label>
+
+        <label style="display: block; margin-bottom: 10px">
+          Tanggal Lahir :
+          <input type="date" required/>
+        </label>
+
+        <label style="display: block; margin-bottom: 10px">
+          Umur :
+          <input type="number" maxlength="100" required/>
+        </label>
+
+        <p>
+          Jenis Kelamin :
+          <label>
+            <input type="radio" name="jenis-kelamin" value="laki-laki" />
+            Laki-laki
+          </label>
+
+          <label>
+            <input type="radio" name="jenis-kelamin" value="perempuan" />
+            Perempuan
+          </label>
+        </p>
+        <label style="display: block; margin-bottom: 10px">
+          Agama :
+          <select name="agama">
+            <option value="kristen">Kristen</option>
+            <option value="islam" selected>Islam</option>
+            <option value="buddha">Buddha</option>
+            <option value="katholik">Katholik</option>
+            <option value="hindu">Hindu</option>
+            <option value="konghucu">Konghucu</option>
+          </select>
+        </label>
+
+        <label style="display: block; margin-bottom: 10px">
+          Biografi :
+          <textarea name="biografi" cols="16" rows="4"></textarea>
+        </label>
+
+        <label style="display: block; margin-bottom: 10px">
+          Foto :
+          <img src="logo.jpg" alt="logo Niomic" height="300px" />
+        </label>
+
+        <label style="display: block; margin-bottom: 10px">
+          Audio :
+          <audio controls>
+            <source src="sample.mp3" />
+          </audio>
+        </label>
+      </fieldset>
+    </form>
+
+    <p>Semoga ilmu yang dipelajari berkah - Tugas 22</p>
+  </body>
+</html>
